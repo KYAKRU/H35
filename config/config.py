@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", "27166561"))
 API_HASH = getenv("API_HASH", "fe394a668e1d9305af67a249e200f06d")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5843397624:AAFeG5MseBnTHNYIO3mStQ8qj2Q6UvdM2VM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5843397624:AAHRmwN1yquZgzk3pvhkjTEi5l3PGn6nxEc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06retryWr
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Rudra:Rudra@cluster0.5ii9irk.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Rudra:Rudra@cluster0.2nxpjva.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -72,7 +72,7 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -165,11 +165,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/10998baee0fa761aac29e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://te.legra.ph/file/afc4dd9370ff80d4795be.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -179,12 +179,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://te.legra.ph/file/afc4dd9370ff80d4795be.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://te.legra.ph/file/2ca7d6872cce686261a43.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
